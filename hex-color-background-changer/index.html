@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <!-- main css -->
+ <link rel="stylesheet" href="css/main.css">
+ <title>Hex Color</title>
+</head>
+
+<body id="app" :style="{backgroundColor: hex}">
+
+ <div  >
+  <div >
+  
+    <h1 class="text-uppercase">hex color : {{hex}}<span id="hex-value"></span></h1>
+    <div   @click="generateColor" href="#" id="btn" class="btn btn-secondary text-uppercase my-2">click me</div>
+   
+  
+ </div>
+</div>
+
+
+ <script src="https://unpkg.com/vue@next"></script> 
+ <!-- script js -->
+ <script src="js/app.js"></script>
+</body>
+
+</html>

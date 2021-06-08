@@ -1,0 +1,20 @@
+.max-height{
+ min-height: 100vh;
+}
+body{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: center;
+  display: inline;
+  text-transform: uppercase;
+}
+  
+.btn{
+  position: center;
+  padding: 10px 20px;
+  background: #5c5858;
+  border: 1px solid #d1cccc;
+  font-display: center;
+  font-family: 'courgette';
+  display: center;
+}
